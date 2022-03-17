@@ -10,11 +10,7 @@ function App() {
             <div className="chat-container">
                 <Chat/>
                 <br/>
-                <input placeholder="test"/>
-                <br/>
-                <input placeholder="test2"/>
-                <br/>
-                <input placeholder="test3"/>
+                <input className="input" placeholder="test3"/>
             </div>
         </div>
     );
