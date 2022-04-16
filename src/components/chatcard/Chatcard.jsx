@@ -6,12 +6,11 @@ function Chatcard({message, username, date}) {
             <p>
                 {message}
             </p>
-            <p>
-                {username}
-            </p>
-            <p>
-                {date}
-            </p>
+            <div className="user-info">
+                <p>
+                    {username}  * {date}
+                </p>
+            </div>
 
             {/*
              <div className="chat-card">

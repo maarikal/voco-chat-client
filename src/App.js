@@ -6,12 +6,21 @@ import Chat from "./components/chat/Chat";
 function App() {
     return (
         <div className="page">
-            <p> VOCO </p>
+            <h1> VOCO </h1>
+            <div>
+                <button className='buttonLog' type="submit">Log in or create account </button>
+            </div>
             <div className="chat-container">
                 <Chat/>
                 <br/>
-                <input className="input" placeholder="test3"/>
+                <input className="input" placeholder="Mutitädi | Elas metsas mutionu."/>
             </div>
+            <br/>
+
+            <div>
+                <button className='buttonSend' type="submit">SEND </button>
+            </div>
+
         </div>
     );
 }
