@@ -10,7 +10,7 @@
     margin: auto;
     width: 50%;
     border: 3px black;
-    padding: 10px;
+    padding: 5px;
     font-weight: normal;
     overflow: scroll;
     height: 100vh;
@@ -19,7 +19,7 @@
 
 .chat-card {
     background-color: #555555;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .user-info {
@@ -39,17 +39,22 @@
 
 }
 
+.btn-container {
+    justify-content: center;
+    height: 8vh;
+    display: flex;
+    margin: auto;
+
+}
+
 .buttonSend {
     background-color: transparent;
     color: white;
     border: 2px solid white;
     cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    position:absolute;
-    bottom: 0;
-    right: 30px;
     border-radius: 25px;
+    padding: 15px 25px;
+
 }
 
 .buttonLog {

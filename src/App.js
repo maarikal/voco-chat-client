@@ -8,7 +8,7 @@ function App() {
         <div className="page">
             <h1> VOCO </h1>
             <div>
-                <button className='buttonLog' type="submit">Log in or create account </button>
+                <button className='buttonLog' type="submit"> Log in or create account </button>
             </div>
             <div className="chat-container">
                 <Chat/>
@@ -17,8 +17,8 @@ function App() {
             </div>
             <br/>
 
-            <div>
-                <button className='buttonSend' type="submit">SEND </button>
+            <div className="btn-container" >
+                <button className='buttonSend' type="submit"> SEND </button>
             </div>
 
         </div>
